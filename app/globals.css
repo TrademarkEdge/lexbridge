@@ -2,13 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
 
 :root {
-  --navy: #123F43;
-  --navy-light: #1B5558;
-  --gold: #B97855;
-  --cream: #F4EFE5;
+  --navy: #234B3E;
+  --navy-light: #386B59;
+  --gold: #B8AA96;
+  --cream: #F4F0E7;
   --white: #FFFFFF;
-  --text: #303638;
-  --muted: #747B78;
+  --text: #303832;
+  --muted: #747B75;
+  --border: #E4DED2;
+  --dark-green: #19382F;
+  --soft-green: #E8EEE8;
 }
 
 * {
@@ -38,7 +41,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: white;
+  background: var(--cream);
 }
 
 .brand {
@@ -49,7 +52,7 @@ a {
 }
 
 .brand span {
-  color: var(--gold);
+  color: var(--navy-light);
   font-weight: 500;
 }
 
@@ -62,7 +65,7 @@ a {
 }
 
 .navbar nav a:hover {
-  color: var(--gold);
+  color: var(--navy-light);
 }
 
 .nav-button {
@@ -74,7 +77,7 @@ a {
 .hero {
   min-height: 590px;
   padding: 110px 9% 70px;
-  background: var(--navy);
+  background: var(--dark-green);
   color: white;
   position: relative;
   display: flex;
@@ -108,7 +111,7 @@ a {
 .hero-description {
   max-width: 570px;
   line-height: 1.9;
-  color: #d3dbe5;
+  color: #E2E9E2;
   font-size: 16px;
 }
 
@@ -130,15 +133,15 @@ a {
 
 .primary-button {
   background: var(--gold);
-  color: var(--navy);
+  color: var(--dark-green);
 }
 
 .primary-button:hover {
-  background: white;
+  background: var(--cream);
 }
 
 .secondary-button {
-  border: 1px solid #8b98a9;
+  border: 1px solid #A9B9AE;
   color: white;
 }
 
@@ -152,7 +155,7 @@ a {
   right: 9%;
   bottom: 35px;
   text-align: right;
-  color: #b7c1cf;
+  color: #C2CEC5;
   font-size: 11px;
 }
 
@@ -187,6 +190,7 @@ a {
 
 .services {
   padding: 100px 9%;
+  background: var(--white);
 }
 
 .section-heading {
@@ -212,18 +216,19 @@ a {
 
 .service-card {
   padding: 35px;
-  border: 1px solid #e7e8eb;
-  background: white;
+  border: 1px solid var(--border);
+  background: var(--cream);
   transition: 0.25s;
 }
 
 .service-card:hover {
-  border-color: var(--gold);
+  border-color: var(--navy-light);
   transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(35, 75, 62, 0.08);
 }
 
 .service-card span {
-  color: var(--gold);
+  color: var(--navy-light);
   font-size: 13px;
   font-weight: 700;
 }
@@ -244,7 +249,7 @@ a {
 
 .attorneys {
   padding: 100px 12%;
-  background: var(--navy-light);
+  background: var(--navy);
   color: white;
 }
 
@@ -257,7 +262,7 @@ a {
   max-width: 650px;
   margin: 23px 0 30px;
   line-height: 1.9;
-  color: #d3dbe5;
+  color: #E2E9E2;
 }
 
 .contact {
@@ -284,13 +289,17 @@ a {
 
 footer {
   padding: 40px 8%;
-  background: #0b1728;
-  color: #c2cbd6;
+  background: var(--dark-green);
+  color: #E2E9E2;
   text-align: center;
 }
 
 footer .brand {
   color: white;
+}
+
+footer .brand span {
+  color: var(--gold);
 }
 
 footer p {
@@ -302,7 +311,7 @@ footer small {
   display: block;
   font-size: 11px;
   line-height: 1.7;
-  color: #9da9b8;
+  color: #C2CEC5;
 }
 
 @media (max-width: 760px) {
