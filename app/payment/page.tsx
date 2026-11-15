@@ -13,6 +13,7 @@ export default function PaymentPage() {
             <a href="/pricing">Pricing</a>
             <a href="/about">About</a>
             <a href="/contact">Contact</a>
+            <a href="/payment">Make a Payment</a>
           </div>
         </nav>
       </header>
