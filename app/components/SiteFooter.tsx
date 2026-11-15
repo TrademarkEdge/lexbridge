@@ -21,6 +21,11 @@ export default function SiteFooter() {
           <a href="/cookies">Cookie Policy</a>
           <a href="/terms">Terms & Conditions</a>
         </div>
+        <p>
+  <a href="mailto:info@lexbridgeevaluations.com">
+    info@lexbridgeevaluations.com
+  </a>
+</p>
 
         <p style={{ fontSize: 13 }}>
           © {new Date().getFullYear()} LexBridge Evaluations LLC.
