@@ -333,7 +333,11 @@ p {
 .price-card p {
   color: var(--muted);
 }
-
+.price-card h2,
+.price-card .eyebrow,
+.price-card p:not(.price) {
+  color: #000000;
+}
 .attorney-section {
   background: var(--ivory-dark);
 }
