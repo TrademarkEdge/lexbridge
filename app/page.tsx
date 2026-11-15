@@ -108,6 +108,7 @@ export default function Home() {
             <Link href="/">Home</Link>
             <Link href="/services">Services</Link>
             <Link href="/pricing">Pricing</Link>
+            <Link href="/payment">Make a Payment</Link>
             <Link href="/#practice">Practice Areas</Link>
             <Link href="/#attorneys">For Attorneys</Link>
           </nav>
