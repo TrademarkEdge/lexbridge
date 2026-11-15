@@ -2,13 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
 
 :root {
-  --navy: #101f35;
-  --navy-light: #1b304d;
-  --gold: #b99a61;
-  --cream: #f7f6f2;
-  --white: #ffffff;
-  --text: #263348;
-  --muted: #697586;
+  --navy: #123F43;
+  --navy-light: #1B5558;
+  --gold: #B97855;
+  --cream: #F4EFE5;
+  --white: #FFFFFF;
+  --text: #303638;
+  --muted: #747B78;
 }
 
 * {
