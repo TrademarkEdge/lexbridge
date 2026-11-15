@@ -111,6 +111,7 @@ export default function Home() {
             <Link href="/payment">Make a Payment</Link>
             <Link href="/#practice">Practice Areas</Link>
             <Link href="/#attorneys">For Attorneys</Link>
+            <Link href="/about">About</Link>            
           </nav>
 
           <Link href="/#contact" className="nav-cta">
