@@ -39,13 +39,12 @@ export default function PaymentPage() {
                   based on the agreed service scope and
                   supporting case materials.
                 </p>
-                <button
-                  className="button-primary"
-                  type="button"
-                  disabled
-                >
-                  PayPal checkout coming soon
-                </button>
+                <a
+  className="button-primary"
+  href="mailto:info@lexbridgeevaluations.com?subject=Request%20for%20Expert%20Opinion%20Letter%20Payment"
+>
+  Request Payment
+</a>
               </article>
 
               <article className="price-card">
@@ -57,13 +56,12 @@ export default function PaymentPage() {
                   supporting materials prepared according to
                   the service scope.
                 </p>
-                <button
-                  className="button-primary"
-                  type="button"
-                  disabled
-                >
-                  PayPal checkout coming soon
-                </button>
+                <a
+  className="button-primary"
+  href="mailto:info@lexbridgeevaluations.com?subject=Request%20for%20Expert%20Opinion%20Letter%20Payment"
+>
+  Request Payment
+</a>
               </article>
 
               <article className="price-card">
